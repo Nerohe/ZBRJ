@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		CEEBE9F620BF9306001497EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEBE9F520BF9306001497EE /* AppDelegate.swift */; };
-		CEEBE9F820BF9306001497EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEBE9F720BF9306001497EE /* ViewController.swift */; };
 		CEEBE9FB20BF9306001497EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEEBE9F920BF9306001497EE /* Main.storyboard */; };
 		CEEBE9FD20BF9306001497EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEEBE9FC20BF9306001497EE /* Assets.xcassets */; };
 		CEEBEA0020BF9306001497EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEEBE9FE20BF9306001497EE /* LaunchScreen.storyboard */; };
@@ -17,7 +16,6 @@
 /* Begin PBXFileReference section */
 		CEEBE9F220BF9306001497EE /* livestraming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = livestraming.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEEBE9F520BF9306001497EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CEEBE9F720BF9306001497EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CEEBE9FA20BF9306001497EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEEBE9FC20BF9306001497EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEEBE9FF20BF9306001497EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +33,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE6F9B6F20BFEB2F0047B7C8 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				CE6F9B7120BFEB2F0047B7C8 /* home */,
+				CE6F9B7420BFEB2F0047B7C8 /* tools */,
+				CE6F9B7020BFEB2F0047B7C8 /* follow */,
+				CE6F9B7220BFEB2F0047B7C8 /* live */,
+				CE6F9B7320BFEB2F0047B7C8 /* main */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		CE6F9B7020BFEB2F0047B7C8 /* follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = follow;
+			sourceTree = "<group>";
+		};
+		CE6F9B7120BFEB2F0047B7C8 /* home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		CE6F9B7220BFEB2F0047B7C8 /* live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = live;
+			sourceTree = "<group>";
+		};
+		CE6F9B7320BFEB2F0047B7C8 /* main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		CE6F9B7420BFEB2F0047B7C8 /* tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
 		CEEBE9E920BF9306001497EE = {
 			isa = PBXGroup;
 			children = (
@@ -54,8 +99,8 @@
 		CEEBE9F420BF9306001497EE /* livestraming */ = {
 			isa = PBXGroup;
 			children = (
+				CE6F9B6F20BFEB2F0047B7C8 /* classes */,
 				CEEBE9F520BF9306001497EE /* AppDelegate.swift */,
-				CEEBE9F720BF9306001497EE /* ViewController.swift */,
 				CEEBE9F920BF9306001497EE /* Main.storyboard */,
 				CEEBE9FC20BF9306001497EE /* Assets.xcassets */,
 				CEEBE9FE20BF9306001497EE /* LaunchScreen.storyboard */,
@@ -136,7 +181,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEEBE9F820BF9306001497EE /* ViewController.swift in Sources */,
 				CEEBE9F620BF9306001497EE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
