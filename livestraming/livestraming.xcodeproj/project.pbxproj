@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE6F9B7720C014420047B7C8 /* home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6F9B7520C014420047B7C8 /* home.storyboard */; };
+		CE6F9B7A20C014A30047B7C8 /* live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6F9B7820C014A30047B7C8 /* live.storyboard */; };
+		CE6F9B7D20C014D50047B7C8 /* follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6F9B7B20C014D50047B7C8 /* follow.storyboard */; };
+		CE6F9B7F20C014EB0047B7C8 /* profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6F9B7E20C014EB0047B7C8 /* profile.storyboard */; };
+		CE6F9B8A20C01C750047B7C8 /* mainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6F9B8720C01C750047B7C8 /* mainViewController.swift */; };
+		CE6F9B8C20C01CF10047B7C8 /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6F9B8B20C01CF10047B7C8 /* homeViewController.swift */; };
+		CE6F9B8F20C029510047B7C8 /* UIBARbuttonitem-extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6F9B8E20C029510047B7C8 /* UIBARbuttonitem-extension.swift */; };
+		CE6F9B9120C111CF0047B7C8 /* pagetitleview.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6F9B9020C111CF0047B7C8 /* pagetitleview.swift */; };
+		CE6F9B9320C1149B0047B7C8 /* common.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6F9B9220C1149B0047B7C8 /* common.swift */; };
 		CEEBE9F620BF9306001497EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEBE9F520BF9306001497EE /* AppDelegate.swift */; };
 		CEEBE9FB20BF9306001497EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEEBE9F920BF9306001497EE /* Main.storyboard */; };
 		CEEBE9FD20BF9306001497EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEEBE9FC20BF9306001497EE /* Assets.xcassets */; };
@@ -14,6 +23,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE6F9B7620C014420047B7C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = livestraming/Base.lproj/home.storyboard; sourceTree = SOURCE_ROOT; };
+		CE6F9B7920C014A30047B7C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = livestraming/Base.lproj/live.storyboard; sourceTree = SOURCE_ROOT; };
+		CE6F9B7C20C014D50047B7C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = livestraming/Base.lproj/follow.storyboard; sourceTree = SOURCE_ROOT; };
+		CE6F9B7E20C014EB0047B7C8 /* profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = profile.storyboard; path = ../main/profile.storyboard; sourceTree = "<group>"; };
+		CE6F9B8720C01C750047B7C8 /* mainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainViewController.swift; sourceTree = "<group>"; };
+		CE6F9B8B20C01CF10047B7C8 /* homeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
+		CE6F9B8E20C029510047B7C8 /* UIBARbuttonitem-extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBARbuttonitem-extension.swift"; sourceTree = "<group>"; };
+		CE6F9B9020C111CF0047B7C8 /* pagetitleview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pagetitleview.swift; sourceTree = "<group>"; };
+		CE6F9B9220C1149B0047B7C8 /* common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = common.swift; path = Extension/common.swift; sourceTree = "<group>"; };
 		CEEBE9F220BF9306001497EE /* livestraming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = livestraming.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEEBE9F520BF9306001497EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEEBE9FA20BF9306001497EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -36,6 +54,7 @@
 		CE6F9B6F20BFEB2F0047B7C8 /* classes */ = {
 			isa = PBXGroup;
 			children = (
+				CE6F9B8020C015D90047B7C8 /* profile */,
 				CE6F9B7120BFEB2F0047B7C8 /* home */,
 				CE6F9B7420BFEB2F0047B7C8 /* tools */,
 				CE6F9B7020BFEB2F0047B7C8 /* follow */,
@@ -48,6 +67,7 @@
 		CE6F9B7020BFEB2F0047B7C8 /* follow */ = {
 			isa = PBXGroup;
 			children = (
+				CE6F9B7B20C014D50047B7C8 /* follow.storyboard */,
 			);
 			path = follow;
 			sourceTree = "<group>";
@@ -55,6 +75,9 @@
 		CE6F9B7120BFEB2F0047B7C8 /* home */ = {
 			isa = PBXGroup;
 			children = (
+				CE6F9B8420C01BD70047B7C8 /* model */,
+				CE6F9B8520C01BD70047B7C8 /* view */,
+				CE6F9B8320C01BD70047B7C8 /* controller */,
 			);
 			path = home;
 			sourceTree = "<group>";
@@ -62,6 +85,7 @@
 		CE6F9B7220BFEB2F0047B7C8 /* live */ = {
 			isa = PBXGroup;
 			children = (
+				CE6F9B7820C014A30047B7C8 /* live.storyboard */,
 			);
 			path = live;
 			sourceTree = "<group>";
@@ -69,6 +93,9 @@
 		CE6F9B7320BFEB2F0047B7C8 /* main */ = {
 			isa = PBXGroup;
 			children = (
+				CE6F9B8920C01C750047B7C8 /* view */,
+				CE6F9B8820C01C750047B7C8 /* model */,
+				CE6F9B8620C01C750047B7C8 /* controller */,
 			);
 			path = main;
 			sourceTree = "<group>";
@@ -76,8 +103,76 @@
 		CE6F9B7420BFEB2F0047B7C8 /* tools */ = {
 			isa = PBXGroup;
 			children = (
+				CE6F9B9220C1149B0047B7C8 /* common.swift */,
+				CE6F9B8D20C0291E0047B7C8 /* Extension */,
 			);
 			path = tools;
+			sourceTree = "<group>";
+		};
+		CE6F9B8020C015D90047B7C8 /* profile */ = {
+			isa = PBXGroup;
+			children = (
+				CE6F9B7E20C014EB0047B7C8 /* profile.storyboard */,
+			);
+			path = profile;
+			sourceTree = "<group>";
+		};
+		CE6F9B8320C01BD70047B7C8 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE6F9B7520C014420047B7C8 /* home.storyboard */,
+				CE6F9B8B20C01CF10047B7C8 /* homeViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		CE6F9B8420C01BD70047B7C8 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		CE6F9B8520C01BD70047B7C8 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		CE6F9B8620C01C750047B7C8 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				CEEBE9F920BF9306001497EE /* Main.storyboard */,
+				CE6F9B8720C01C750047B7C8 /* mainViewController.swift */,
+			);
+			name = controller;
+			path = ../live/controller;
+			sourceTree = "<group>";
+		};
+		CE6F9B8820C01C750047B7C8 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = model;
+			path = ../live/model;
+			sourceTree = "<group>";
+		};
+		CE6F9B8920C01C750047B7C8 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				CE6F9B9020C111CF0047B7C8 /* pagetitleview.swift */,
+			);
+			name = view;
+			path = ../live/view;
+			sourceTree = "<group>";
+		};
+		CE6F9B8D20C0291E0047B7C8 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CE6F9B8E20C029510047B7C8 /* UIBARbuttonitem-extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		CEEBE9E920BF9306001497EE = {
@@ -101,7 +196,6 @@
 			children = (
 				CE6F9B6F20BFEB2F0047B7C8 /* classes */,
 				CEEBE9F520BF9306001497EE /* AppDelegate.swift */,
-				CEEBE9F920BF9306001497EE /* Main.storyboard */,
 				CEEBE9FC20BF9306001497EE /* Assets.xcassets */,
 				CEEBE9FE20BF9306001497EE /* LaunchScreen.storyboard */,
 				CEEBEA0120BF9306001497EE /* Info.plist */,
@@ -168,9 +262,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE6F9B7F20C014EB0047B7C8 /* profile.storyboard in Resources */,
 				CEEBEA0020BF9306001497EE /* LaunchScreen.storyboard in Resources */,
 				CEEBE9FD20BF9306001497EE /* Assets.xcassets in Resources */,
+				CE6F9B7A20C014A30047B7C8 /* live.storyboard in Resources */,
+				CE6F9B7D20C014D50047B7C8 /* follow.storyboard in Resources */,
 				CEEBE9FB20BF9306001497EE /* Main.storyboard in Resources */,
+				CE6F9B7720C014420047B7C8 /* home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,18 +280,51 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEEBE9F620BF9306001497EE /* AppDelegate.swift in Sources */,
+				CE6F9B8C20C01CF10047B7C8 /* homeViewController.swift in Sources */,
+				CE6F9B9320C1149B0047B7C8 /* common.swift in Sources */,
+				CE6F9B9120C111CF0047B7C8 /* pagetitleview.swift in Sources */,
+				CE6F9B8F20C029510047B7C8 /* UIBARbuttonitem-extension.swift in Sources */,
+				CE6F9B8A20C01C750047B7C8 /* mainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		CE6F9B7520C014420047B7C8 /* home.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE6F9B7620C014420047B7C8 /* Base */,
+			);
+			name = home.storyboard;
+			path = ../../main;
+			sourceTree = "<group>";
+		};
+		CE6F9B7820C014A30047B7C8 /* live.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE6F9B7920C014A30047B7C8 /* Base */,
+			);
+			name = live.storyboard;
+			path = ../main;
+			sourceTree = "<group>";
+		};
+		CE6F9B7B20C014D50047B7C8 /* follow.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE6F9B7C20C014D50047B7C8 /* Base */,
+			);
+			name = follow.storyboard;
+			path = ../main;
+			sourceTree = "<group>";
+		};
 		CEEBE9F920BF9306001497EE /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				CEEBE9FA20BF9306001497EE /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../../..;
 			sourceTree = "<group>";
 		};
 		CEEBE9FE20BF9306001497EE /* LaunchScreen.storyboard */ = {
@@ -304,10 +435,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = livestraming/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nerohe.livestraming;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -317,10 +450,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = livestraming/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nerohe.livestraming;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
